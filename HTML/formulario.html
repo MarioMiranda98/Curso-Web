@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>Formularios</title>
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <!--Form es para crear el formulario-->
+        <form action = "" method = ""> <!--action es para el nombre del archivo que va a disparar el formulario-->
+            <label for = "nombre">Nombre:</label>
+            <input type = "text" placeholder = "Nombre:" id = "nombre" maxlength = "10" required name = "nombre"> <!--Añadiendo un input de texto-->
+            <br>
+            <input type = "email" placeholder = "Correo" name = "correo">
+            <br>
+            <textarea name = "mensaje" id = "mensaje" placeholder = "mensaje"></textarea>
+            <br>
+            <!--El for debe recibir el id-->
+            <label for = "pais">País:</label>
+            <select name = "pais" id = "pais">
+                <option value = "mexico">México</option>
+                <option value = "españa">España</option>
+                <option value = "argentina">Argentina</option>
+            </select>
+            <br>
+            <!--Para que solo se pueda elegir uno solo el name debe ser el mismo-->
+            <input type = "radio" name = "genero" value = "hombre" id = "hombre"> 
+            <label for = "hombre">Hombre</label>
+            <input type = "radio" name = "genero" value = "mujer" id = "mujer"> 
+            <label for = "mujer">Mujer</label>
+            <br>
+            <input type = "checkbox" name = "terminos" id = "terminos"> 
+            <label for = "terminos">Terminos y condiciones</label>
+            <br>
+            <input type = "submit" value = "Enviar"> <!--Es un boton-->
+        </form>
+    </body>
+</html>
