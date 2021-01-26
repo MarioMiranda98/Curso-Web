@@ -1,0 +1,8 @@
+/*
+    Selector : { efectos 
+        propiedad: valor;
+    }
+*/
+body { /*Selector de etiqueta*/
+    color: blue;
+}

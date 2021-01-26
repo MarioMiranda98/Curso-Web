@@ -1,0 +1,53 @@
+body {
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 20px 0px;
+}
+
+.btn {
+    background: #32021F;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+/* Efectos */
+.btn:hover {
+    opacity: 0.8;
+}
+
+.border-radius {
+    border-radius: 100px;
+}
+
+/* Tamaños */
+.small {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.big {
+    font-size: 18px;
+    padding: 20px 25px;
+}
+
+.extra-big {
+    font-size: 20px;
+    padding: 25px 30px;
+}
+
+/* Colores */
+.azul { background: #246EB9; }
+.verde { background: #4FB500; }
+.naranja { background: #F9A03F; }

@@ -1,0 +1,21 @@
+/* El > indica que debe ser hijo directo del componente */
+div > p {
+    font-size: 20px;
+}
+
+/* Selector de atributos*/
+/* input[type] { */
+    /*  */
+/* } */
+
+/* input[type="text"] {} */
+
+body {
+    font-size: 20px;
+    color: blue;
+}
+
+article {
+    font-size: 16px;
+    color: black;
+}

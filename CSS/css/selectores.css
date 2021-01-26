@@ -1,0 +1,29 @@
+/* Selector universal, indica todo*/
+/* * {
+    color: red;
+} */
+
+/* Selectores de etiqueta, selecciona los elementos por su etiqueta*/
+h1, h2, h3 {
+    color: blue;
+}
+
+/* Selector descendente, selecciona los elementos internos de otro elemento */
+div article p {
+    font-size: 20px;
+    color: black;
+}
+
+div p a {
+    color: red;
+}
+
+/* Selector de clase*/
+.grande {
+    font-size: 28px;
+}
+
+/* Selector de id*/
+#rojo {
+    color: red;
+}

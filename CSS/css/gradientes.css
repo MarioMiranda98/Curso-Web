@@ -1,0 +1,10 @@
+body {
+    background: url('./../images/moroccan-flower.png');
+    background-repeat: repeat;
+}
+
+.fondo {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%);
+}
