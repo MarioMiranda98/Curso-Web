@@ -1,0 +1,19 @@
+.texto {
+    /* text-shadow: 2px 3px 10px #000000; */
+    /*
+        El primer valor es la posicion horizontal de la sombra
+        El segundo valor es la posicion vertical de la sombra
+        El tercer valor es el tamaño de la sombra
+
+        Podemos asignarle un valor para el valor de la sombra
+    */
+    color: #FFFFFF;
+    text-shadow: 2px 0px 10px blue;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #F79256;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
