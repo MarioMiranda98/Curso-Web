@@ -1,0 +1,37 @@
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background: #CF5C36;
+    line-height: 40px;
+}
+
+*::selection {
+    background: #F9A03F;
+    color: #FFFFFF;
+}
+
+.caja {
+    background: #F9A03F;
+    height: 150px;
+    width: 150px;
+}
+
+.caja::before {
+    content: 'Contenido antes de la caja';
+    display: block;
+    background: #3A3A3A;
+    color: #FFFFFF;
+}
+
+.caja::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #000000;
+    position: relative;
+    left: 200px;
+}

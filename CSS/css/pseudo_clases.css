@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    display: inline-block;
+    background: #4357AD;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+a:hover {
+    background: #009DDC;
+    padding: 25px 35px;
+}
+
+a:active {
+    background: #000000;
+}
+
+/* a:visited {
+    background: #CCCCCC;
+} */
+
+div {
+    width: 500px;
+}
+
+div p:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+div p:first-line{
+    background: #3A3A3A;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+div p:nth-child(2) {
+    background: #009DDC;
+    color: #FFFFFF;
+    padding: 10px;
+}
