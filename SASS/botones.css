@@ -1,0 +1,27 @@
+body {
+  background: #F2F2F2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton, .btn-verde, .btn-azul, .btn-rojo {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.btn-rojo {
+  background: #FF2732;
+}
+
+.btn-azul {
+  background: #246EB9;
+}
+
+.btn-verde {
+  background: #4FB560;
+}
+
+/*# sourceMappingURL=botones.css.map */
