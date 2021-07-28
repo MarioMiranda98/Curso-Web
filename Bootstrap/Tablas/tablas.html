@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css//bootstrap.min.css">
+        <title>Tablas</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--
+                        table-striped Nos permite alternar colores en cada fila
+                        table-bordered Nos permite agregarle bordes a la tabla
+                        table-hover Nos permite agregarle un hover a las filas 
+                        table-dark Nos permite cambiar los colores de la tabla a oscuros
+                        table-sm Nos permite hacer la tabla mas pequeña eliminando paddings
+                        table-responsive-xx Nos permite adaptar la tabla a dispositivos moviles
+                    -->
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Pais</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--
+                                table-active
+                                table-success
+                                table-warning
+                                table-danger
+                                table-info
+                            -->
+                            <tr class="table-success">
+                                <td>Mario</td>
+                                <td>22</td>
+                                <td>Mexico</td>
+                            </tr>
+                            <tr>
+                                <td>Mario</td>
+                                <td>22</td>
+                                <td>Mexico</td>
+                            </tr>
+                            <tr>
+                                <td>Mario</td>
+                                <td>22</td>
+                                <td>Mexico</td>
+                            </tr>
+                            <!--
+                                bg-primary
+                                bg-success
+                                bg-warning
+                                bg-danger
+                                bg-info
+                            -->
+                            <tr class="bg-primary text-white">
+                                <td>Mario</td>
+                                <td>22</td>
+                                <td>Mexico</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
