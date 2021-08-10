@@ -4,14 +4,40 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Enlaces para el funcionamiento de bootstrap-->
         <script src="./js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <title>Pagina web hecha con Bootstrap</title>
     </head>
     <body>
+        <!--La estructura basica de Bootstrap es
+            <div class="container"> Permite tener el contenido centrado
+                <div class="row">  Es una fila
+                    <div class="col"> Coloca una columna divida en 12
+                    </div>
+                </div>
+            </div>    
+        -->
         <header>
+            <!--
+                Si bien, la estructura basica de bootstrap es la anterior, 
+                esa estructura puede ir dentro de etiquetas html como divs, navs
+                entre otras
+            -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <!--
+                    Para el nav, se debe añadir la clase navbar, 
+                    el navbar-expand-lg me permite mostrar los
+                    elementos en el navbar en un tamaño grande, 
+                    si el tamaño es menor se convierten en elementos del 
+                    toggler
+                -->
                 <div class="container">
+                    <!--
+                        Enlace que solo modela como si fuera un logotipo, debe
+                        debe llevar la clase navbar-brand, cuando se trata de
+                        enlaces
+                    -->
                     <a href="#" class="navbar-brand text-white">Logotipo</a>
                     <button
                         class="navbar-toggler"
@@ -22,9 +48,15 @@
                         aria-expanded="false"
                         aria-label="Mostrar/Ocultar Navegacion"
                     >
-                        <span class="navbar-toggler-icon">
-
-                        </span>
+                        <!--
+                            El boton toggler aparecera cuando el expand (en este caso
+                            para lg) sea menor al tamaño especificado. Mientras que este
+                            debe llevar el type button, el data-bs-toggle con collapse, y 
+                            de target debe ir el ID del contenedor que se desea hacer el 
+                            efecto toggle
+                        -->
+                        <!--Icono del navbar-->
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="contenidoMenu">
                         <!--Enlaces-->
@@ -79,7 +111,12 @@
             <!--Carousel-->
             <div class="row">
                 <div class="col"> 
+                    <!--
+                        Para hacer un carrusel, debe incluir la clase carousel y slide
+                        que este es el efecto, 
+                    -->
                     <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                        <!--Carousel inner, donde va el contenido del carrusel-->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="./images/s1.jpg" class="w-100">
@@ -158,6 +195,10 @@
                 </div>
             </div>
             <div class="row">
+                <!--
+                    Para hacer las cards, los col con diferentes cosas,
+                    es para los tamaños en diversos dispositivos.
+                -->
                 <div class="col-xs-12 col-sm-6 col-lg-3 mb-4">
                     <div class="card">
                         <img class="card-img-top" src="./images/1.jpg">
